@@ -34,7 +34,7 @@ For this course, you'll be using a database containing information on almost 500
 
 From looking at the tabs, who is the first person listed in the `people` table?
 
-`@instructions`
+`@possible_answers`
 - Kanye West
 - Biggie Smalls
 - 50 Cent
@@ -78,7 +78,7 @@ Run the query in the editor and check out the resulting table in the query resul
 
 Who is the second person listed in the query result?
 
-`@instructions`
+`@possible_answers`
 - Kanye West
 - A. Michael Baldwin
 - 50 Cent
@@ -90,11 +90,6 @@ Run the code in the editor and look at the query result tab under the editor!
 `@pre_exercise_code`
 ```{python}
 connect('postgresql', 'films')
-```
-
-`@sample_code`
-```{sql}
-SELECT name FROM people;
 ```
 
 `@sct`
@@ -194,8 +189,6 @@ key: 157ee8d1ad
 xp: 35
 ```
 
-
-
 `@instructions`
 Submit the query in the editor! Don't worry, you'll learn how it works soon.
 
@@ -226,8 +219,6 @@ type: NormalExercise
 key: 764f82129d
 xp: 35
 ```
-
-
 
 `@instructions`
 Now change `'SQL'` to `'SQL is'` and click Submit!
@@ -262,8 +253,6 @@ type: NormalExercise
 key: 1496605dac
 xp: 30
 ```
-
-
 
 `@instructions`
 Finally, change `'SQL is'` to `'SQL is cool!'` and click Submit!
@@ -332,7 +321,7 @@ Remember that in database lingo, a column is called a *field*. How many fields d
 - 3
 - [4]
 
-`@feedback`
+`@feedbacks`
 - Incorrect, a table contains information about one type of entity, but generally has multiple fields.
 - Sorry, try again!
 - Incorrect, the table contains three records, but how many fields does it have?
@@ -385,8 +374,6 @@ key: a41cc766d5
 xp: 35
 ```
 
-
-
 `@instructions`
 Select the `title` column from the `films` table.
 
@@ -426,8 +413,6 @@ key: 4a74270ecd
 xp: 35
 ```
 
-
-
 `@instructions`
 Select the `release_year` column from the `films` table.
 
@@ -466,8 +451,6 @@ type: NormalExercise
 key: 323bd5ddf5
 xp: 30
 ```
-
-
 
 `@instructions`
 Select the `name` of each person in the `people` table.
@@ -553,8 +536,6 @@ key: d561b4df97
 xp: 25
 ```
 
-
-
 `@instructions`
 Get the title of every film from the `films` table.
 
@@ -593,8 +574,6 @@ type: NormalExercise
 key: 917d7dc533
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the title and release year for every film.
@@ -639,8 +618,6 @@ type: NormalExercise
 key: eeba078a00
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the title, release year and country for every film.
@@ -687,8 +664,6 @@ type: NormalExercise
 key: dac27d9aad
 xp: 25
 ```
-
-
 
 `@instructions`
 Get all columns from the `films` table.
@@ -758,8 +733,6 @@ key: e6b81711f1
 xp: 35
 ```
 
-
-
 `@instructions`
 Get all the unique countries represented in the `films` table.
 
@@ -802,8 +775,6 @@ key: 2cb9a4bf6a
 xp: 35
 ```
 
-
-
 `@instructions`
 Get all the different film certifications from the `films` table.
 
@@ -845,8 +816,6 @@ type: NormalExercise
 key: 26835d3029
 xp: 30
 ```
-
-
 
 `@instructions`
 Get the different types of film roles from the `roles` table.
@@ -905,7 +874,7 @@ FROM people;
 <hr>
 How many records are contained in the `reviews` table?
 
-`@instructions`
+`@possible_answers`
 - 9,468
 - 8,397
 - 4,968
@@ -918,11 +887,6 @@ Run a query to count the number of records in the `reviews` table!
 `@pre_exercise_code`
 ```{python}
 connect('postgresql', 'films')
-```
-
-`@sample_code`
-```{sql}
--- You can test out queries here!
 ```
 
 `@sct`
@@ -977,8 +941,6 @@ key: 4688067e3e
 xp: 20
 ```
 
-
-
 `@instructions`
 Count the number of rows in the `people` table.
 
@@ -1020,8 +982,6 @@ type: NormalExercise
 key: 497ffa962e
 xp: 20
 ```
-
-
 
 `@instructions`
 Count the number of (non-missing) birth dates in the `people` table.
@@ -1065,8 +1025,6 @@ type: NormalExercise
 key: 50c903a00a
 xp: 20
 ```
-
-
 
 `@instructions`
 Count the number of unique birth dates in the `people` table.
@@ -1113,8 +1071,6 @@ key: 511052cbbe
 xp: 20
 ```
 
-
-
 `@instructions`
 Count the number of unique languages in the `films` table.
 
@@ -1158,8 +1114,6 @@ type: NormalExercise
 key: 9e1147efe5
 xp: 20
 ```
-
-
 
 `@instructions`
 Count the number of unique countries in the `films` table.

@@ -51,8 +51,6 @@ key: 80fd462ae1
 xp: 25
 ```
 
-
-
 `@instructions`
 Use the `SUM` function to get the total duration of all films.
 
@@ -92,8 +90,6 @@ type: NormalExercise
 key: 7993b51268
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the average duration of all films.
@@ -135,8 +131,6 @@ key: a03aeabbc6
 xp: 25
 ```
 
-
-
 `@instructions`
 Get the duration of the shortest film.
 
@@ -176,8 +170,6 @@ type: NormalExercise
 key: fabbc619c6
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the duration of the longest film.
@@ -240,8 +232,6 @@ key: c8173b7d3e
 xp: 25
 ```
 
-
-
 `@instructions`
 Use the `SUM` function to get the total amount grossed by all films.
 
@@ -281,8 +271,6 @@ type: NormalExercise
 key: 24c0ab68ad
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the average amount grossed by all films.
@@ -324,8 +312,6 @@ key: 19838082cb
 xp: 25
 ```
 
-
-
 `@instructions`
 Get the amount grossed by the worst performing film.
 
@@ -365,8 +351,6 @@ type: NormalExercise
 key: a49b98de42
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the amount grossed by the best performing film.
@@ -439,8 +423,6 @@ key: b986f33a10
 xp: 25
 ```
 
-
-
 `@instructions`
 Use the `SUM` function to get the total amount grossed by all films made in the year 2000 or later.
 
@@ -483,8 +465,6 @@ type: NormalExercise
 key: 65e81175c5
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the average amount grossed by all films whose titles start with the letter 'A'.
@@ -529,8 +509,6 @@ key: 3ca90a8536
 xp: 25
 ```
 
-
-
 `@instructions`
 Get the amount grossed by the worst performing film in 1994.
 
@@ -573,8 +551,6 @@ type: NormalExercise
 key: d2e630e656
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the amount grossed by the best performing film between 2000 and 2012, inclusive.
@@ -654,7 +630,7 @@ gives you the result you would expect: `1.333`.
 <hr>
 What is the result of `SELECT (10 / 3);`?
 
-`@instructions`
+`@possible_answers`
 - 2.333
 - 3.333
 - 3
@@ -666,16 +642,6 @@ Run a query in the editor to the right.
 `@pre_exercise_code`
 ```{python}
 connect('postgresql', 'films')
-```
-
-`@sample_code`
-```{sql}
--- You can test out queries here!
-```
-
-`@solution`
-```{sql}
-
 ```
 
 `@sct`
@@ -738,8 +704,6 @@ key: ec33c2353b
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the title and net profit (the amount a film grossed, minus its budget) for all films. Alias the net profit as `net_profit`.
 
@@ -782,8 +746,6 @@ key: 1351c6f6bb
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the title and duration in hours for all films. The duration is in minutes, so you'll need to divide by 60.0 to get the duration in hours. Alias the duration in hours as `duration_hours`.
 
@@ -825,8 +787,6 @@ type: NormalExercise
 key: 497f8d2a8a
 xp: 30
 ```
-
-
 
 `@instructions`
 Get the average duration in hours for all films, aliased as `avg_duration_hours`.
@@ -907,8 +867,6 @@ key: e14dc7c1a2
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the percentage of `people` who are no longer alive. Alias the result as `percentage_dead`. Remember to use `100.0` and not `100`!
 
@@ -954,8 +912,6 @@ key: c2bbd9a806
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the number of years between the newest film and oldest film. Alias the result as `difference`.
 
@@ -996,8 +952,6 @@ type: NormalExercise
 key: f272486b68
 xp: 30
 ```
-
-
 
 `@instructions`
 Get the number of decades the `films` table covers. Alias the result as `number_of_decades`. The top half of your fraction should be enclosed in parentheses.

@@ -53,7 +53,7 @@ If you're stuck, refer to the list of comparison operators above!
 - Films released after the year 2001
 - Films released in 2000
 
-`@feedback`
+`@feedbacks`
 - Incorrect. `>` means *strictly* greater than and *not* equal to.
 - Correct!
 - Incorrect. `>` means *strictly* greater than and *not* equal to.
@@ -95,8 +95,6 @@ type: NormalExercise
 key: 8a4615ada8
 xp: 35
 ```
-
-
 
 `@instructions`
 Get all details for all films released in 2016.
@@ -146,8 +144,6 @@ key: 5e6e1c74c6
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the number of films released before 2000.
 
@@ -190,8 +186,6 @@ type: NormalExercise
 key: d66f3d41b7
 xp: 30
 ```
-
-
 
 `@instructions`
 Get the title and release year of films released after 2000.
@@ -271,8 +265,6 @@ key: b645308dcd
 xp: 25
 ```
 
-
-
 `@instructions`
 Get all details for all French language films.
 
@@ -321,8 +313,6 @@ key: 051f6fb8ec
 xp: 25
 ```
 
-
-
 `@instructions`
 Get the name and birth date of the person born on November 11th, 1974. Remember to use ISO date format (`'1974-11-11'`)!
 
@@ -368,8 +358,6 @@ key: 7b872a3af0
 xp: 25
 ```
 
-
-
 `@instructions`
 Get the number of Hindi language films.
 
@@ -412,8 +400,6 @@ type: NormalExercise
 key: 2c87504f11
 xp: 25
 ```
-
-
 
 `@instructions`
 Get all details for all films with an R certification.
@@ -505,8 +491,6 @@ key: 7ccf93b215
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the title and release year for all Spanish language films released before 2000.
 
@@ -556,8 +540,6 @@ type: NormalExercise
 key: e703c95e46
 xp: 35
 ```
-
-
 
 `@instructions`
 Get all details for Spanish language films released after 2000.
@@ -611,8 +593,6 @@ type: NormalExercise
 key: 7f2ba5c82f
 xp: 30
 ```
-
-
 
 `@instructions`
 Get all details for Spanish language films released after 2000, but before 2010.
@@ -716,7 +696,7 @@ Think about records that meet condition1 **and** condition2.
 - Display only rows that meet **all** of the specified conditions.
 - Display only rows that meet **none** of the specified conditions.
 
-`@feedback`
+`@feedbacks`
 - Correct!
 - Incorrect. `OR` does not only display rows that meet **all** of the specified conditions.
 - Incorrect. `OR` does not display rows that meet **none** of the specified conditions.
@@ -762,8 +742,6 @@ type: NormalExercise
 key: 510b387baa
 xp: 35
 ```
-
-
 
 `@instructions`
 Get the title and release year for films released in the 90s.
@@ -812,8 +790,6 @@ type: NormalExercise
 key: 969ed73542
 xp: 35
 ```
-
-
 
 `@instructions`
 Now, build on your query to filter the records to only include French or Spanish language films.
@@ -868,8 +844,6 @@ type: NormalExercise
 key: d961856c7a
 xp: 30
 ```
-
-
 
 `@instructions`
 Finally, restrict the query to only return films that took in more than $2M gross.
@@ -965,7 +939,7 @@ Think about looking for values **between** a beginning and end point.
 - Filter values in a specified list
 - [Filter values in a specified range]
 
-`@feedback`
+`@feedbacks`
 - Incorrect. `BETWEEN` does not just filter numeric values.
 - Incorrect. `BETWEEN` does not just filter text values.
 - Incorrect!
@@ -1008,8 +982,6 @@ type: NormalExercise
 key: 9252da136b
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the title and release year of all films released between 1990 and 2000 (inclusive).
@@ -1060,8 +1032,6 @@ key: d21a4bec02
 xp: 25
 ```
 
-
-
 `@instructions`
 Now, build on your previous query to select only films that have budgets over $100 million.
 
@@ -1108,8 +1078,6 @@ type: NormalExercise
 key: 9087bf33ac
 xp: 25
 ```
-
-
 
 `@instructions`
 Now restrict the query to only return Spanish language films.
@@ -1159,8 +1127,6 @@ type: NormalExercise
 key: 73d020dfab
 xp: 25
 ```
-
-
 
 `@instructions`
 Finally, modify to your previous query to include all Spanish language *or* French language films with the same criteria as before. Don't forget your parentheses!
@@ -1254,8 +1220,6 @@ key: dc7674d358
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the title and release year of all films released in 1990 or 2000 that were longer than two hours. Remember, duration is in minutes!
 
@@ -1306,8 +1270,6 @@ key: 3a84c097d2
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the title and language of all films which were in English, Spanish, or French.
 
@@ -1352,8 +1314,6 @@ type: NormalExercise
 key: 3c947b0d2d
 xp: 30
 ```
-
-
 
 `@instructions`
 Get the title and certification of all films with an NC-17 or R certification.
@@ -1437,7 +1397,7 @@ Remember, `NULL` represents values which are missing or unknown.
 - An empty string
 - An invalid value
 
-`@feedback`
+`@feedbacks`
 - Incorrect. We can not be sure that a `NULL` value is actually corrupt.
 - Correct! `NULL` is used to represent unknown values.
 - Incorrect. An empty string is not the same as a `NULL` value.
@@ -1469,8 +1429,6 @@ type: NormalExercise
 key: 3c646ada87
 xp: 35
 ```
-
-
 
 `@instructions`
 Get the names of people who are still alive, i.e. whose death date is missing.
@@ -1517,8 +1475,6 @@ key: 3c646ada89
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the title of every film which doesn't have a budget associated with it.
 
@@ -1563,8 +1519,6 @@ type: NormalExercise
 key: 3c646ada88
 xp: 30
 ```
-
-
 
 `@instructions`
 Get the number of films which don't have a language associated with them.
@@ -1652,8 +1606,6 @@ key: 9e3c3ef68f
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the names of all people whose names begin with 'B'. The pattern you need is `'B%'`.
 
@@ -1699,8 +1651,6 @@ key: 606b667e1c
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the names of people whose names have 'r' as the second letter. The pattern you need is `'_r%'`.
 
@@ -1745,8 +1695,6 @@ type: NormalExercise
 key: 2e4f49a528
 xp: 30
 ```
-
-
 
 `@instructions`
 Get the names of people whose names don't start with A. The pattern you need is `'A%'`.

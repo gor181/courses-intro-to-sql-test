@@ -40,7 +40,7 @@ By default, `ORDER BY` sorts alphabetically, but in which direction?
 - There's no natural ordering to text data
 - By number of characters (fewest to most)
 
-`@feedback`
+`@feedbacks`
 - Correct!
 - Incorrect. Although text values are ordered alphabetically, they don't go Z-A.
 - Incorrect. Text values are ordered alphabetically.
@@ -72,8 +72,6 @@ type: NormalExercise
 key: e3a06cce15
 xp: 35
 ```
-
-
 
 `@instructions`
 Get the names of people from the `people` table, sorted alphabetically.
@@ -120,8 +118,6 @@ key: 14a2792baa
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the names of people, sorted by birth date.
 
@@ -162,8 +158,6 @@ type: NormalExercise
 key: 6cfeca71b1
 xp: 30
 ```
-
-
 
 `@instructions`
 Get the birth date and name for every person, in order of when they were born.
@@ -229,8 +223,6 @@ key: e2702b5933
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the title of films released in 2000 or 2012, in the order they were released.
 
@@ -281,8 +273,6 @@ type: NormalExercise
 key: 5c84507976
 xp: 35
 ```
-
-
 
 `@instructions`
 Get all details for all films except those released in 2015 and order them by duration.
@@ -339,8 +329,6 @@ type: NormalExercise
 key: 6359addbf8
 xp: 30
 ```
-
-
 
 `@instructions`
 Get the title and gross earnings for movies which begin with the letter 'M' and order the results alphabetically.
@@ -429,8 +417,6 @@ key: 1ed651456d
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the IMDB score and film ID for every film from the reviews table, sorted from highest to lowest score.
 
@@ -473,8 +459,6 @@ key: 3629dd5dcd
 xp: 35
 ```
 
-
-
 `@instructions`
 Get the title for every film, in reverse order.
 
@@ -516,8 +500,6 @@ type: NormalExercise
 key: ddcb2dd3ad
 xp: 30
 ```
-
-
 
 `@instructions`
 Get the title and duration for every film, in order of longest duration to shortest.
@@ -592,8 +574,6 @@ key: 9ec6e8ae72
 xp: 25
 ```
 
-
-
 `@instructions`
 Get the birth date and name of people in the `people` table, in order of when they were born and alphabetically by name.
 
@@ -635,8 +615,6 @@ type: NormalExercise
 key: 3460b2f14b
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the release year, duration, and title of films ordered by their release year and duration.
@@ -680,8 +658,6 @@ key: c03517c2b9
 xp: 25
 ```
 
-
-
 `@instructions`
 Get certifications, release years, and titles of films ordered by certification (alphabetically) and release year.
 
@@ -723,8 +699,6 @@ type: NormalExercise
 key: f0ade213ff
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the names and birthdates of people ordered by name and birth date.
@@ -803,7 +777,7 @@ You use `GROUP BY` when you want to compute results within groups.
 - Performing operations in a particular order
 - [Performing operations by group]
 
-`@feedback`
+`@feedbacks`
 - Incorrect. While `GROUP BY` does sort by column, we could just use `ORDER BY` for this.
 - Incorrect.
 - Incorrect. While `GROUP BY` does sort results, it's not designed to control order of operations.
@@ -857,8 +831,6 @@ key: 0b29eb4ff3
 xp: 25
 ```
 
-
-
 `@instructions`
 Get the release year and count of films released in each year.
 
@@ -902,8 +874,6 @@ type: NormalExercise
 key: ebee043890
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the release year and average duration of all films, grouped by release year.
@@ -950,8 +920,6 @@ key: b4341b8451
 xp: 25
 ```
 
-
-
 `@instructions`
 Get the release year and largest budget for all films, grouped by release year.
 
@@ -996,8 +964,6 @@ type: NormalExercise
 key: 66d0c5198a
 xp: 25
 ```
-
-
 
 `@instructions`
 Get the IMDB score and count of film reviews grouped by IMDB score in the `reviews` table.
@@ -1067,8 +1033,6 @@ key: 53ad6da98c
 xp: 20
 ```
 
-
-
 `@instructions`
 Get the release year and lowest gross earnings per release year.
 
@@ -1113,8 +1077,6 @@ type: NormalExercise
 key: cff5924de5
 xp: 20
 ```
-
-
 
 `@instructions`
 Get the language and total gross amount films in each language made.
@@ -1161,8 +1123,6 @@ key: 83944ff64f
 xp: 20
 ```
 
-
-
 `@instructions`
 Get the country and total budget spent making movies in each country.
 
@@ -1207,8 +1167,6 @@ type: NormalExercise
 key: eac5f722a5
 xp: 20
 ```
-
-
 
 `@instructions`
 Get the release year, country, and highest budget spent making a film for each year, for each country. Sort your results by release year and country.
@@ -1262,8 +1220,6 @@ type: NormalExercise
 key: 48461bd4d3
 xp: 20
 ```
-
-
 
 `@instructions`
 Get the country, release year, and lowest amount grossed per release year per country. Order your results by country and release year.
@@ -1346,7 +1302,7 @@ shows only those years in which more than 10 films were released.
 <hr>
 In how many different years were more than 200 movies released?
 
-`@instructions`
+`@possible_answers`
 - 2
 - 13
 - 44
@@ -1359,11 +1315,6 @@ Replace 10 with 200 in the query above and run it in the editor.
 ```{python}
 connect('postgresql', 'films')
 set_options(visible_tables = ['films'])
-```
-
-`@sample_code`
-```{sql}
--- You can test out queries here!
 ```
 
 `@sct`
@@ -1406,8 +1357,6 @@ key: a141cd669f
 xp: 20
 ```
 
-
-
 `@instructions`
 Get the release year, budget and gross earnings for each film in the `films` table.
 
@@ -1440,8 +1389,6 @@ type: NormalExercise
 key: d80bd57b13
 xp: 20
 ```
-
-
 
 `@instructions`
 Modify your query so that only records with a `release_year` after 1990 are included.
@@ -1484,8 +1431,6 @@ type: NormalExercise
 key: 2d5e6bd8cf
 xp: 20
 ```
-
-
 
 `@instructions`
 Remove the budget and gross columns, and group your results by release year.
@@ -1533,8 +1478,6 @@ type: NormalExercise
 key: ee92d8cbaa
 xp: 20
 ```
-
-
 
 `@instructions`
 Modify your query to include the average budget and average gross earnings for the results you have so far. Alias the average budget as `avg_budget`; alias the average gross earnings as `avg_gross`.
@@ -1597,8 +1540,6 @@ key: ce0f248734
 xp: 20
 ```
 
-
-
 `@instructions`
 Modify your query so that only years with an average budget of greater than $60 million are included.
 
@@ -1651,8 +1592,6 @@ Ex().check_correct(
 type: NormalExercise
 key: 7b3afeed2f
 ```
-
-
 
 `@instructions`
 Finally, modify your query to order the results from highest average gross earnings to lowest.
@@ -1850,8 +1789,6 @@ key: 7c4fc7a484
 xp: 50
 ```
 
-
-
 `@instructions`
 Submit the code in the editor and inspect the results.
 
@@ -1889,9 +1826,15 @@ key: fc288db979
 xp: 50
 ```
 
+`@question`
 
 
-`@instructions`
+`@sample_code`
+```{sql}
+
+```
+
+`@possible_answers`
 - 8.1
 - 8.4
 - 7.7
@@ -1899,16 +1842,6 @@ xp: 50
 
 `@hint`
 Look at the query result tab!
-
-`@sample_code`
-```{sql}
-
-```
-
-`@solution`
-```{sql}
-
-```
 
 `@sct`
 ```{python}
