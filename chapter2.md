@@ -53,7 +53,7 @@ If you're stuck, refer to the list of comparison operators above!
 - Films released after the year 2001
 - Films released in 2000
 
-`@feedbacks`
+`@feedback`
 - Incorrect. `>` means *strictly* greater than and *not* equal to.
 - Correct!
 - Incorrect. `>` means *strictly* greater than and *not* equal to.
@@ -696,7 +696,7 @@ Think about records that meet condition1 **and** condition2.
 - Display only rows that meet **all** of the specified conditions.
 - Display only rows that meet **none** of the specified conditions.
 
-`@feedbacks`
+`@feedback`
 - Correct!
 - Incorrect. `OR` does not only display rows that meet **all** of the specified conditions.
 - Incorrect. `OR` does not display rows that meet **none** of the specified conditions.
@@ -939,7 +939,7 @@ Think about looking for values **between** a beginning and end point.
 - Filter values in a specified list
 - [Filter values in a specified range]
 
-`@feedbacks`
+`@feedback`
 - Incorrect. `BETWEEN` does not just filter numeric values.
 - Incorrect. `BETWEEN` does not just filter text values.
 - Incorrect!
@@ -1397,7 +1397,7 @@ Remember, `NULL` represents values which are missing or unknown.
 - An empty string
 - An invalid value
 
-`@feedbacks`
+`@feedback`
 - Incorrect. We can not be sure that a `NULL` value is actually corrupt.
 - Correct! `NULL` is used to represent unknown values.
 - Incorrect. An empty string is not the same as a `NULL` value.

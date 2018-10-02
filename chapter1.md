@@ -321,7 +321,7 @@ Remember that in database lingo, a column is called a *field*. How many fields d
 - 3
 - [4]
 
-`@feedbacks`
+`@feedback`
 - Incorrect, a table contains information about one type of entity, but generally has multiple fields.
 - Sorry, try again!
 - Incorrect, the table contains three records, but how many fields does it have?

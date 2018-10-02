@@ -40,7 +40,7 @@ By default, `ORDER BY` sorts alphabetically, but in which direction?
 - There's no natural ordering to text data
 - By number of characters (fewest to most)
 
-`@feedbacks`
+`@feedback`
 - Correct!
 - Incorrect. Although text values are ordered alphabetically, they don't go Z-A.
 - Incorrect. Text values are ordered alphabetically.
@@ -777,7 +777,7 @@ You use `GROUP BY` when you want to compute results within groups.
 - Performing operations in a particular order
 - [Performing operations by group]
 
-`@feedbacks`
+`@feedback`
 - Incorrect. While `GROUP BY` does sort by column, we could just use `ORDER BY` for this.
 - Incorrect.
 - Incorrect. While `GROUP BY` does sort results, it's not designed to control order of operations.
