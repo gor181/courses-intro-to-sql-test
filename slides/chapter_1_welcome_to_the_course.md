@@ -6,8 +6,8 @@ video_link:
   mp4: https://videos.datacamp.com/transcoded_mp4/1946_intro-to-sql/v1/ch1_1.mp4
 transformations:
   translateX: 55
-  translateY: undefined
-  scale: undefined
+  translateY: 50
+  scale: 1
 
 ---
 ## Welcome to the course!
