@@ -1,6 +1,7 @@
 ---
 title: 'Sorting, grouping and joins'
 description: 'This chapter provides a brief introduction to sorting and grouping your results, and briefly touches on the concept of joins.'
+free_preview: true
 ---
 
 ## ORDER BY
